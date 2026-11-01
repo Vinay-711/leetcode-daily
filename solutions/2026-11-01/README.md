@@ -3,3 +3,7 @@
 [Contains Duplicate](contains-duplicate/README.md) — **Accepted — 80/80 testcases**.
 
 [Judge record](https://leetcode.com/problems/contains-duplicate/submissions/2186875590/); ID `2186875590`.
+
+- [Valid Anagram](valid-anagram/README.md) — **Accepted**.
+
+- [Valid Parentheses](valid-parentheses/README.md) — **Accepted**.
