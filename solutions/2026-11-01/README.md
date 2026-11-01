@@ -1,5 +1,5 @@
 # Daily practice — 2026-11-01
 
-[Contains Duplicate](contains-duplicate/README.md) — **Prepared, not submitted**.
+[Contains Duplicate](contains-duplicate/README.md) — **Accepted — 80/80 testcases**.
 
-Local verification: 205 cases passed, including randomized and maximum-length input.
+[Judge record](https://leetcode.com/problems/contains-duplicate/submissions/2186875590/); ID `2186875590`.

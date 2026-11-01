@@ -4,7 +4,7 @@ Problem: [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
 Date: 2026-11-01 (Asia/Kolkata)
 
-Status: **Prepared — locally tested; not submitted to the platform.**
+Status: **Accepted — 80/80 testcases**
 
 ## Approach
 
@@ -20,8 +20,10 @@ Run `python3 -B test_solution.py` from this folder.
 
 Result: 205 cases passed, including randomized and maximum-length input. Tests are original and do not represent the hidden judge suite.
 
-## Submission blocker
+## Judge result
 
-Browser automation connection failed (Debugger unattached) before account history and judge submission could be verified. Prior accepted status is unknown; this is not claimed as a new platform solve. Automated-submission permission must be verified before a later submission.
+Status: **Accepted — 80/80 testcases**. Submission/log ID: `2186875590`.
 
-AI-assisted practice solution; no contest participation or rating change is claimed.
+[Judge record](https://leetcode.com/problems/contains-duplicate/submissions/2186875590/). Verified in the logged-in platform UI on November 1, 2026. `submission.py` preserves the submitted code; `solution.py` is the independently tested reusable version.
+
+AI-assisted archived practice; no rated contest participation is claimed.
