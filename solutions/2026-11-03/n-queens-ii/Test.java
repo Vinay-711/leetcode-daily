@@ -1,0 +1,2 @@
+import java.util.*;
+class Test {public static void main(String[] args){Solution s=new Solution();int[] counts={0,1,0,0,2,10,4,40,92,352};for(int n=1;n<=9;n++)if(s.totalNQueens(n)!=counts[n])throw new AssertionError(n);if(s.totalNQueens(4)!=2||s.totalNQueens(1)!=1)throw new AssertionError();System.out.println("Samples and original edge/reference checks passed");}}

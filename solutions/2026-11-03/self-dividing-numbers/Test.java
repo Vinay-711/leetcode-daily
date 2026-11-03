@@ -1,0 +1,2 @@
+import java.util.*;
+class Test {public static void main(String[] x){Solution s=new Solution();if(!s.selfDividingNumbers(1,22).equals(Arrays.asList(1,2,3,4,5,6,7,8,9,11,12,15,22)))throw new AssertionError();if(!s.selfDividingNumbers(47,85).equals(Arrays.asList(48,55,66,77)))throw new AssertionError();if(!s.selfDividingNumbers(10000,10000).isEmpty())throw new AssertionError();if(!s.selfDividingNumbers(1,1).equals(Arrays.asList(1)))throw new AssertionError();System.out.println("4 range and zero-digit checks passed");}}

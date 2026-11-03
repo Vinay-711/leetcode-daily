@@ -1,0 +1,1 @@
+class Test {public static void main(String[] a){Solution s=new Solution();for(int n:new int[]{1,2,6,30,125,1073741824})if(!s.isUgly(n))throw new AssertionError(n);for(int n:new int[]{0,-1,Integer.MIN_VALUE,14,49,Integer.MAX_VALUE})if(s.isUgly(n))throw new AssertionError(n);System.out.println("Boundary and sample checks passed");}}
