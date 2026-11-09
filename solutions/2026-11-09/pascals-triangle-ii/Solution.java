@@ -1,0 +1,1 @@
+import java.util.ArrayList; import java.util.List; class Solution { public List<Integer> getRow(int rowIndex) { List<Integer> row = new ArrayList<>(rowIndex + 1); long current = 1; for (int k = 0; k <= rowIndex; k++) { row.add((int) current); current = current * (rowIndex - k) / (k + 1); } return row; } }
