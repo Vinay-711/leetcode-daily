@@ -1,0 +1,1 @@
+import java.util.*; class Solution { public boolean isIsomorphic(String s, String t) { int[] mapS = new int[256]; int[] mapT = new int[256]; Arrays.fill(mapS, -1); Arrays.fill(mapT, -1); for (int i = 0; i < s.length(); i++) { char charS = s.charAt(i); char charT = t.charAt(i); if (mapS[charS] != mapT[charT]) { return false; } mapS[charS] = i; mapT[charT] = i; } return true; } }
