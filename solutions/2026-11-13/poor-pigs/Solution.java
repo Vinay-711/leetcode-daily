@@ -1,0 +1,1 @@
+class Solution { public int poorPigs(int buckets, int minutesToDie, int minutesToTest) { int rounds = minutesToTest / minutesToDie; int statesPerPig = rounds + 1; int pigs = 0; double totalStates = 1; while (totalStates < buckets) { totalStates *= statesPerPig; pigs++; } return pigs; } }
