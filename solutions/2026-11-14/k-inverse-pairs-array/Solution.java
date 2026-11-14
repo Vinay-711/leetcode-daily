@@ -1,0 +1,1 @@
+import java.util.*; class Solution { public int kInversePairs(int n, int k) { int MOD = 1000000007; int[] dp = new int[k + 1]; dp[0] = 1; for (int i = 1; i <= n; i++) { int[] next = new int[k + 1]; int sum = 0; for (int j = 0; j <= k; j++) { sum = (sum + dp[j]) % MOD; if (j >= i) { sum = (sum - dp[j - i] + MOD) % MOD; } next[j] = sum; } dp = next; } return dp[k]; } }
