@@ -1,4 +1,9 @@
-public class TreeNode {
+import java.util.*;
+
+/**
+ * Definition for a binary tree node.
+ */
+class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -13,18 +18,17 @@ public class TreeNode {
 
 class Solution {
     public boolean isValidBST(TreeNode root) {
-        return validate(root, null, null);
+        return validate(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    private boolean validate(TreeNode node, Long lower, Long upper) {
-        if (node == null) return true;
-        long val = node.val;
-        if (lower != null && val <= lower) return false;
-        if (upper != null && val >= upper) return false;
-        // Right subtree must have values > val
-        if (!validate(node.right, val, upper)) return false;
-        // Left subtree must have values < val
-        if (!validate(node.left, lower, val)) return false;
-        return true;
+    private boolean validate(TreeNode node, long lower, long upper) {
+        if (node == null) {
+            return true;
+        }
+        if (node.val <= lower || node.val >= upper) {
+            return false;
+        }
+        return validate(node.left, lower, node.val) &&
+               validate(node.right, node.val, upper);
     }
 }

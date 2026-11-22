@@ -6,7 +6,7 @@ Date: 2026-11-22 (Asia/Kolkata). Status: **Accepted**. Platform: **LeetCode**. L
 
 ## Approach
 
-Recursive bound‑checking visits each node once → O(N) time, O(H) recursion stack space (worst‑case O(N)).
+The algorithm performs a DFS with lower/upper bounds, visiting each node once. Time complexity O(N), space complexity O(H) recursion stack where H is tree height.
 
 ## Verification
 
